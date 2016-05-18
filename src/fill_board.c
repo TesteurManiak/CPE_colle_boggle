@@ -71,14 +71,15 @@ void	fill_board(char *word, char **board, int j)
   int	k;
 
   k = rand() % 1;
+  x = rand() % 9;
+  y = rand() % 19;
   if (my_strlen(word) <= 10)
   {
-    x = rand() % 9;
-    add_horizon(word, board, x, k);
+    if (j == 0)
+      add_horizon(word, board, x, k);
+    else
+      add_verti(word, board, y, k);
   }
   else
-  {
-    y = rand() % 19;
     add_verti(word, board, y, k);
-  }
 }
