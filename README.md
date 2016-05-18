@@ -6,7 +6,7 @@ L'objectif est de recréer un jeu de boggle en C. Le programme prend en paramèt
 Partie réalisé :
 - Le programme affiche la grille remplie de lettres aléatoires et ajoute les mots du dictionnaire passé en paramètre de façon aléatoire.
 
-- L'utilisateur peut rentré les mots qu'il repère, s'il est contenu dans le dictionnaire il sera retiré de la liste, s'il n'est pas dans le dicitonnaire un message est affiché et l'utilisateur est invité à retrer un nouveau mot.
+- L'utilisateur peut rentré les mots qu'il repère, s'il est contenu dans le dictionnaire il sera retiré de la liste, s'il n'est pas dans le dictionnaire un message est affiché et l'utilisateur est invité à retrer un nouveau mot.
 
 - Lorsque le joueur à trouvé tous les mots du dicitonnaire un message de victoire s'affiche.
 
